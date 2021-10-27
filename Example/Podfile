@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'EZPopAlertController_Example' do
+  pod 'EZPopAlertController', :path => '../'
+
+  target 'EZPopAlertController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
