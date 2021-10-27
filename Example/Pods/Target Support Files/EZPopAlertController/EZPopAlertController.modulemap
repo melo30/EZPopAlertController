@@ -1,0 +1,6 @@
+framework module EZPopAlertController {
+  umbrella header "EZPopAlertController-umbrella.h"
+
+  export *
+  module * { export * }
+}

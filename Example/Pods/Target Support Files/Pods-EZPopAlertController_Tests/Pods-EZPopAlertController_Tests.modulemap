@@ -1,0 +1,6 @@
+framework module Pods_EZPopAlertController_Tests {
+  umbrella header "Pods-EZPopAlertController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

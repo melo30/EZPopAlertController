@@ -1,0 +1,23 @@
+PODS:
+  - EZPopAlertController (0.1.0):
+    - Masonry
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - EZPopAlertController (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  EZPopAlertController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EZPopAlertController: 1a4603f3c8e619b73507bf17e2e7b4786112ded3
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 4fe240801e0f3ba53a12b5bec9b508e1cf805918
+
+COCOAPODS: 1.10.1

@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		091ED3FC39DB5885068E25F0 /* Pods_EZPopAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EZPopAlertController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C6B694BB3115072A4B502B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3C6B694BB3115072A4B502B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* EZPopAlertController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZPopAlertController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,8 +61,8 @@
 		6DAEE5D3EAD03C9AEB70107D /* Pods-EZPopAlertController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZPopAlertController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EZPopAlertController_Tests/Pods-EZPopAlertController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DE22D1D61BD18030B98C7E70 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EE2AD2A05DB02DF854837DDF /* EZPopAlertController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EZPopAlertController.podspec; path = ../EZPopAlertController.podspec; sourceTree = "<group>"; };
+		DE22D1D61BD18030B98C7E70 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EE2AD2A05DB02DF854837DDF /* EZPopAlertController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EZPopAlertController.podspec; path = ../EZPopAlertController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F37CE2B141B0E4B535997F35 /* Pods_EZPopAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EZPopAlertController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F84F99DEB8911CB2DFB00E /* Pods-EZPopAlertController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZPopAlertController_Example.release.xcconfig"; path = "Target Support Files/Pods-EZPopAlertController_Example/Pods-EZPopAlertController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F9F8B2C53D0748EA04EFFA4D /* Pods-EZPopAlertController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZPopAlertController_Example.debug.xcconfig"; path = "Target Support Files/Pods-EZPopAlertController_Example/Pods-EZPopAlertController_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				6DAEE5D3EAD03C9AEB70107D /* Pods-EZPopAlertController_Tests.debug.xcconfig */,
 				FC4F6D41BC4B67BFCBEFA086 /* Pods-EZPopAlertController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -347,10 +347,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-EZPopAlertController_Example/Pods-EZPopAlertController_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/EZPopAlertController/EZPopAlertController.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EZPopAlertController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
