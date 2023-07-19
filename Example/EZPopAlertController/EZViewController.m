@@ -8,7 +8,7 @@
 
 #import "EZViewController.h"
 #import "Masonry.h"
-#import "EZTextAlertViewController.h"
+#import "EZCustomAlertView.h"
 
 @interface EZViewController ()
 
@@ -33,12 +33,37 @@
 }
 
 - (void)btnClicked:(UIButton *)sender {
-    EZTextAlertViewController *vc = [[EZTextAlertViewController alloc] initWithTitle:@"这是标题" content:@"这是内容...这是内容...这是内容...这是内容...这是内容...这是内容...这是内容...这是内容...这是内容...这是内容...这是内容...这是内容...这是内容...这是内容...这是内容...这是内容...这是内容...这是内容...这是内容...这是内容...这是内容...这是内容...这是内容...这是内容...这是内容..." buttons:@[@"取消",@"确定"] tapBlock:^(EZTextAlertViewController * _Nonnull controller, NSString * _Nonnull title, NSInteger buttonIndex) {
+#if 1
+    //随意组合配置字典属性(推荐)
+    [EZCustomAlertView showWithCustomData:@{kEZCustomAlertDataTitle:@"我是标题",
+                                            kEZCustomAlertDataTitleColor:UIColor.blackColor,
+                                            kEZCustomAlertDataContent:@"我是内容",
+                                            kEZCustomAlertDataContentColor:UIColor.grayColor,
+                                            kEZCustomAlertDataButtonTitles:@[@"取消",@"确定"],
+                                            kEZCustomAlertDataButtonColors:@[UIColor.redColor,UIColor.greenColor],
+                                            kEZCustomAlertDataPaddingSpace:@(30.0)
+                                          } tapBlock:^(NSInteger tag, NSString * _Nonnull textFieldText) {
+                                                if (tag == 0) return;
         
     }];
-    vc.buttonColors = @[[UIColor redColor]];
-//    vc.hideVerticalLine = YES;
-    [self presentViewController:vc animated:YES completion:nil];
+#endif
+    
+#if 0
+    //标题+内容的基础用法
+    [EZCustomAlertView showWithTitle:@"我是标题" content:@"我是内容" buttons:@[@"取消",@"确定"] tapBlock:^(NSInteger tag, NSString * _Nonnull textFieldText) {
+        
+    }];
+    
+    // 标题+内容的详细用法
+    [EZCustomAlertView showWithTitle:@"提示" titleColor:UIColor.blackColor titleFont:[UIFont systemFontOfSize:16] content:@"内容" contentColor:UIColor.grayColor contentAlignment:NSTextAlignmentCenter contentFont:[UIFont systemFontOfSize:15] contentAttributed:nil buttons:@[@"取消",@"确定"] buttonColors:@[UIColor.redColor,UIColor.greenColor] paddingSpace:30.0 clickBgEZewClose:YES tapBlock:^(NSInteger tag, NSString * _Nonnull textFieldText) {
+            
+    }];
+    
+    //标题+TextField详细用法
+    [EZCustomAlertView showWithTitle:@"提示" titleColor:UIColor.blackColor titleFont:[UIFont systemFontOfSize:16] buttons:@[@"取消",@"确定"] buttonColors:@[UIColor.redColor,UIColor.greenColor] paddingSpace:30.0 clickBgEZewClose:YES isTextField:YES textFieldPlaceholder:@"我是placeholder" textFieldText:@"我是Text" textFieldFont:[UIFont systemFontOfSize:15] textFieldColor:UIColor.grayColor tapBlock:^(NSInteger tag, NSString * _Nonnull textFieldText) {
+            
+    }];
+#endif
 }
 
 - (void)didReceiveMemoryWarning

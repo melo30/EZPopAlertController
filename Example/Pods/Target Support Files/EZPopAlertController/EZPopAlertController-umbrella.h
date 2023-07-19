@@ -10,8 +10,7 @@
 #endif
 #endif
 
-#import "EZBaseAlertViewController.h"
-#import "EZTextAlertViewController.h"
+#import "EZCustomAlertView.h"
 
 FOUNDATION_EXPORT double EZPopAlertControllerVersionNumber;
 FOUNDATION_EXPORT const unsigned char EZPopAlertControllerVersionString[];

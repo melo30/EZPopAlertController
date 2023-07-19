@@ -7,79 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0124A36B96FEC25F143F440D3C9AFE99 /* EZPopAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2788C1C5E1E0767AA2039E91DBAFFA6C /* EZPopAlertController-dummy.m */; };
-		18D014FDEA88F088E3C955C3E332B14B /* EZTextAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E864A9A537746608DA0755D12E0009 /* EZTextAlertViewController.m */; };
-		240E6DBEAD746B8DB20198937B17E2B8 /* Pods-EZPopAlertController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7ABCB067939A3CF588D24CDAC9B9EF /* Pods-EZPopAlertController_Tests-dummy.m */; };
-		25141A377A42E004F20D38FC8E1C7EC4 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C87E0CBA6B105550F61B00926722F52 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3259A914650F2179B6D2BEFBD39E8D21 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
-		49DD6A0687C63459222E9EFFAEF9CCEB /* Pods-EZPopAlertController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8456637C0C0CD3A19C3938409AAA29F /* Pods-EZPopAlertController_Example-dummy.m */; };
-		6095703AB78BBCFC6047A0703447DF2B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		6F98A344C7099A45693C7606F5398C5B /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
-		7A3304E124E27824DC5162A9BD264107 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
-		80F4ECD05C09E693E8B4948140DCBC87 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
-		834C73F57E247624B5C634DD8063BB75 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87D851E0697B77DB29C1992060E8B08C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */; };
-		8B5588F44A33CD073CC000F408D025C3 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EA54E2B530D5AFE607C0678BDD8C156 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */; };
-		93263F56239AECF5DE9E69861D606627 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E37DBD0E52CA0FC14E0C86CC126FF65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */; };
-		A18E32365493706094D924D542ED6D8E /* EZTextAlertViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 08CD1FF5768C1F87A53521A69769BAB8 /* EZTextAlertViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A862DB3D455AD8223BA43183CCCB8B0E /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF1C7F61DBE04A48F4374E9665F83112 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B3C75D13333F526FA2F95B35E18A8DBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CF773651727D50CDFC96D527CE18A6 /* UIKit.framework */; };
-		B6B9038617CACFD90F3C297AB3304D19 /* EZPopAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC780E4D99DFD1A8CB80F6AEC2721528 /* EZPopAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBC1D0D9A8EBABDF2B5767EB15C74CA2 /* Pods-EZPopAlertController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A3243602F162751A8DBC7A26EA5034 /* Pods-EZPopAlertController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC4D33D5F0B596621C861B546F017290 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
-		C1037222E1D95A87479C081E3A77AB3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */; };
-		C39C0D8C3E51FDD0C03657CF52EB997F /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
-		C5A21ACDD70C04AE15F41CCF8B89906C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */; };
-		D48A863B9BDDEBAE4C7277B060DEA42F /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D75BC6CD6CBDFD3A56C04C4D14B2AE8B /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8FD582E8666EBD77850386387E31D8D /* EZBaseAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8681D28AFD098E8B1D5C9E4EDD8C50A /* EZBaseAlertViewController.m */; };
-		D9365910D99E81F69B9EA6D71896C4D5 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCBBCD3C8DA5E66348CBBB09677690FF /* EZBaseAlertViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B541A4D839051695CDDE1FCF01048A1F /* EZBaseAlertViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD291AA7368D7B54438EDD26E472B8B9 /* Pods-EZPopAlertController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E98DDD3475A361974F116FA1FB3DC19 /* Pods-EZPopAlertController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0A0585FEBA956FCDA0E1274D89882E1 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
-		E264AF8567F20CDC89F2E100AC5A966B /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E58C6DE88A59305D44D4D1E22518BC1A /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E96206E733D8D20F441743B1C85EE48A /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
-		EB8F7CD439B195CCD17BCF6AAC751213 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB6156843448ACFFA3DFDFE3E304D1E2 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCBC52DF9A0AC11B1742EC7598AE7F75 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE014E28FF4B73273B1AECAA1057C4B9 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
-		FE406980B965493E276D2A62EAA09047 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
-		FEB6F546BB07B12D4D97196F0D9D4F08 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CCF6378CD093038375258B8DF8953CE /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10E1D4F974778840FA8970E9183313A9 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
+		123B8362A069EF3913A0DA30BFD5C165 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		144C25C54DBB837C84B42141AB13B549 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
+		206F707F5B9585BD9FD6E8D3DBC8BDEC /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		296C98D69795EFCE356E9D821A9034DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		34FE052D654D38AC6CB49A0D6F8ABF09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		351F83D65B03B73526705AD226F09029 /* Pods-EZPopAlertController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A3243602F162751A8DBC7A26EA5034 /* Pods-EZPopAlertController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A6AB97FB381699D126E1960B5ED3DFB /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
+		3AFFD34420C0855CC5244E3A7294FF45 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CECDDBC209BFDBD3A74F75DD94BC5AE /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4219D3F4990639CF8B65B3BFA64486A4 /* EZPopAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F225D9D88D646CA6E8CE73596E0AFD /* EZPopAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54A404683FE69D17533C06A1D03CB2A6 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EB00659833931793B55EBACFCBEB4AF /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F1FA0DBDC9A28198261A844857BCF9A /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75DA9EA3A8542EC6845A42FFD8A6BF33 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C0ECC8B523C7091AB3A09A23DFF4D61 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		8100D20B475F9A5563EB3B3C51E904EA /* Pods-EZPopAlertController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E98DDD3475A361974F116FA1FB3DC19 /* Pods-EZPopAlertController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83C656687A1703FBFA318BD9CB953793 /* Pods-EZPopAlertController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8456637C0C0CD3A19C3938409AAA29F /* Pods-EZPopAlertController_Example-dummy.m */; };
+		87EC6BCDFD8025A6AFE63C679DA70C26 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
+		8B7BA4A8B8CF7790494996E6CE75C334 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F1ECE00279FF7FC84B3815B5A7511C3 /* Pods-EZPopAlertController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7ABCB067939A3CF588D24CDAC9B9EF /* Pods-EZPopAlertController_Tests-dummy.m */; };
+		91229A1E30382DD5408C687550013D7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		91E9B92975D9E2BD0A8F6927562D0ED5 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
+		9AA92A9BBB50A460F489848F4D1B7053 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
+		9D81FA3DB23110155908AD586F012EE5 /* EZCustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFECB6BD193604E59A118721619B446 /* EZCustomAlertView.m */; };
+		AC9C76A1D8C5F48E337AFACB84512995 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD03B0D358A06FD5EC601BFF50752CB0 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0B3ECD1046691EFD7216BD236946ED3 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
+		B52DF080A65C02F634F23F6CF1725ED8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		BD63F24C5E50715937C99BF7326CA3F6 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
+		C1C749C4418A8C6AAE31669F38E3DCB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		D8EC0CED7F5FCCBBD7C6F1D1AA0B9D43 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E00703530047CA4405FB9B2156910949 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5DD52C94155910AFD27939BB0599A77 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6F628367A1392EDC6F38DF43FAF42E4 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9BD72CFAB3FF4C455D51974BAAC363 /* EZPopAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB02963655841055F738D57CCC668236 /* EZPopAlertController-dummy.m */; };
+		F210C4A4859A1AE96721E369AF3DDB81 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
+		F4F490F6A7874858BB8D1BFA0D0B69A1 /* EZCustomAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6CEF8ACFBC149DA56DACEA8714D33C /* EZCustomAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F90838441EA27180379BB77D7B1199C8 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3C5B6A6238D4E24F120D605F237CB7A1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
-		};
-		496139D453B74B44D2B535420EDC08D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
-		};
-		D1EE6407F853C0AFEAB703AC50A8F1A5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A5CFD98820BD84659383902B78655B8B;
-			remoteInfo = EZPopAlertController;
-		};
-		D8E1C3EA0AD406B7FE0ED79EB2193447 /* PBXContainerItemProxy */ = {
+		58FD5B0EA79C846D4C076B241F32B089 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D4FE56DED90EA46C0B7CA18C7423496D;
 			remoteInfo = "Pods-EZPopAlertController_Example";
+		};
+		5C9322B7DB83E442B4A2C281848B6075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		B22A18013A3A5475F4421077D9FC0C52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		D955EE973D6B1B96A9B561E739D9F146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5CFD98820BD84659383902B78655B8B;
+			remoteInfo = EZPopAlertController;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -87,40 +84,37 @@
 		02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		08CD1FF5768C1F87A53521A69769BAB8 /* EZTextAlertViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZTextAlertViewController.h; path = EZPopAlertController/Classes/EZTextAlertViewController.h; sourceTree = "<group>"; };
 		0A7ABCB067939A3CF588D24CDAC9B9EF /* Pods-EZPopAlertController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EZPopAlertController_Tests-dummy.m"; sourceTree = "<group>"; };
-		143BE428F958501D8EA2462923EEB9E1 /* Pods_EZPopAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EZPopAlertController_Example.framework; path = "Pods-EZPopAlertController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		143BE428F958501D8EA2462923EEB9E1 /* Pods-EZPopAlertController_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EZPopAlertController_Example"; path = Pods_EZPopAlertController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C819C43EDCF26CBCA5F6AFBD3517AC /* EZPopAlertController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EZPopAlertController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		18A3243602F162751A8DBC7A26EA5034 /* Pods-EZPopAlertController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EZPopAlertController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1B08FE55A39F08AB99D4BE35E4DB70BC /* EZPopAlertController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EZPopAlertController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		209157CBB5BD4660E2A1966045AA7A44 /* Pods-EZPopAlertController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EZPopAlertController_Tests.modulemap"; sourceTree = "<group>"; };
 		247EB1BED9F0CE756E6A46D2DC173B06 /* Pods-EZPopAlertController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EZPopAlertController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2788C1C5E1E0767AA2039E91DBAFFA6C /* EZPopAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EZPopAlertController-dummy.m"; sourceTree = "<group>"; };
 		27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		28B4C7E048A1C665AFFBE2815C7102A4 /* EZPopAlertController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EZPopAlertController.debug.xcconfig; sourceTree = "<group>"; };
 		28C96044304635C48D60A6B13868DE44 /* Pods-EZPopAlertController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EZPopAlertController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		293D12FFD9041A0CA2146277A1F60E20 /* EZPopAlertController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EZPopAlertController.release.xcconfig; sourceTree = "<group>"; };
+		2A7CE2C7628BCFFF865DC909DB11F3D7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		3DE48B53F45537D77D9588CC388DA38E /* EZPopAlertController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EZPopAlertController.release.xcconfig; sourceTree = "<group>"; };
 		3E259E447151766424D309D3705C477B /* Pods-EZPopAlertController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EZPopAlertController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
 		3FDFD0A52310E748A18C615B02440028 /* Pods-EZPopAlertController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EZPopAlertController_Tests-Info.plist"; sourceTree = "<group>"; };
 		419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		45B9F8E3DC973E504B789E26420694C3 /* EZPopAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EZPopAlertController-prefix.pch"; sourceTree = "<group>"; };
+		45F225D9D88D646CA6E8CE73596E0AFD /* EZPopAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EZPopAlertController-umbrella.h"; sourceTree = "<group>"; };
 		470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		475B43B18459369C1438051538D5DF95 /* Pods-EZPopAlertController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EZPopAlertController_Example.modulemap"; sourceTree = "<group>"; };
 		4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		5B5CC0CCDF24557644C47BB957D8526A /* EZPopAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EZPopAlertController-Info.plist"; sourceTree = "<group>"; };
 		607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		618D7C44FEA10C226467FA73AE642BCB /* EZPopAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EZPopAlertController.framework; path = EZPopAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		679A8ECB8DB61556907147B4A7F27B18 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		67E864A9A537746608DA0755D12E0009 /* EZTextAlertViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZTextAlertViewController.m; path = EZPopAlertController/Classes/EZTextAlertViewController.m; sourceTree = "<group>"; };
-		6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		618D7C44FEA10C226467FA73AE642BCB /* EZPopAlertController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EZPopAlertController; path = EZPopAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A359C0B7072D5E863B58538D8ECD1E /* EZPopAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EZPopAlertController.modulemap; sourceTree = "<group>"; };
 		6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		761D0EA848D5BCD8A4BCD9CE1766847C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		795241097AACA6ABDCE4F2AC4999AB2E /* EZPopAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EZPopAlertController-prefix.pch"; sourceTree = "<group>"; };
 		7D006CD5E65BA890001601F37A94BEA4 /* Pods-EZPopAlertController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EZPopAlertController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7E98DDD3475A361974F116FA1FB3DC19 /* Pods-EZPopAlertController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EZPopAlertController_Example-umbrella.h"; sourceTree = "<group>"; };
 		837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -132,69 +126,80 @@
 		A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		A8F24ED2129F6286D40D5FD3E115E822 /* EZPopAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EZPopAlertController-Info.plist"; sourceTree = "<group>"; };
 		AF268EDBCD6AACAC5074F04D37BE5CA4 /* Pods-EZPopAlertController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EZPopAlertController_Example-Info.plist"; sourceTree = "<group>"; };
 		AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		B541A4D839051695CDDE1FCF01048A1F /* EZBaseAlertViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZBaseAlertViewController.h; path = EZPopAlertController/Classes/EZBaseAlertViewController.h; sourceTree = "<group>"; };
+		BB6CEF8ACFBC149DA56DACEA8714D33C /* EZCustomAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZCustomAlertView.h; path = EZPopAlertController/Classes/EZCustomAlertView.h; sourceTree = "<group>"; };
 		BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		C2D0AFA57DA14025EECAECD272210B6E /* Pods-EZPopAlertController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EZPopAlertController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C3381C0FE84D1BC04313A2317FEBF55B /* EZPopAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EZPopAlertController.modulemap; sourceTree = "<group>"; };
 		C8456637C0C0CD3A19C3938409AAA29F /* Pods-EZPopAlertController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EZPopAlertController_Example-dummy.m"; sourceTree = "<group>"; };
-		CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CB02963655841055F738D57CCC668236 /* EZPopAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EZPopAlertController-dummy.m"; sourceTree = "<group>"; };
 		D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		D8681D28AFD098E8B1D5C9E4EDD8C50A /* EZBaseAlertViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZBaseAlertViewController.m; path = EZPopAlertController/Classes/EZBaseAlertViewController.m; sourceTree = "<group>"; };
-		D8B0A1CB795FDBD1B45EB85077A47BF5 /* Pods_EZPopAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EZPopAlertController_Tests.framework; path = "Pods-EZPopAlertController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D8B0A1CB795FDBD1B45EB85077A47BF5 /* Pods-EZPopAlertController_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EZPopAlertController_Tests"; path = Pods_EZPopAlertController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		DFFECB6BD193604E59A118721619B446 /* EZCustomAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZCustomAlertView.m; path = EZPopAlertController/Classes/EZCustomAlertView.m; sourceTree = "<group>"; };
 		E62CA82A1421CA65BFFCA2B8A1F1439B /* Pods-EZPopAlertController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EZPopAlertController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		EC780E4D99DFD1A8CB80F6AEC2721528 /* EZPopAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EZPopAlertController-umbrella.h"; sourceTree = "<group>"; };
 		EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
-		F3CF773651727D50CDFC96D527CE18A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F4CFA4C8736D70CEF8417FD1A9226E8D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F5F67D3B7E66D7A79287AB16E6F80B6C /* Pods-EZPopAlertController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EZPopAlertController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F608B5FA73BE03A2A428BE1A3471CD23 /* EZPopAlertController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EZPopAlertController.debug.xcconfig; sourceTree = "<group>"; };
 		FBFC8DF752CE5ED245262EDA17E45BE4 /* Pods-EZPopAlertController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EZPopAlertController_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6484E80DDD3D1F05861C0402DAC57780 /* Frameworks */ = {
+		7DB49E3F49D6F65AECD524491D5F6114 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1037222E1D95A87479C081E3A77AB3D /* Foundation.framework in Frameworks */,
-				B3C75D13333F526FA2F95B35E18A8DBF /* UIKit.framework in Frameworks */,
+				C1C749C4418A8C6AAE31669F38E3DCB9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A0EB0820955FB9E9BFA55BAF33E81E8 /* Frameworks */ = {
+		90D9A1FD8449A6606D0B59E846DE78F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5A21ACDD70C04AE15F41CCF8B89906C /* Foundation.framework in Frameworks */,
+				B52DF080A65C02F634F23F6CF1725ED8 /* Foundation.framework in Frameworks */,
+				296C98D69795EFCE356E9D821A9034DC /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCFE09C2CEE51C8F4195277A940D985B /* Frameworks */ = {
+		DF32DE902281B34B0AC03E4BF9ECD802 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87D851E0697B77DB29C1992060E8B08C /* Foundation.framework in Frameworks */,
-				8EA54E2B530D5AFE607C0678BDD8C156 /* Masonry.framework in Frameworks */,
+				34FE052D654D38AC6CB49A0D6F8ABF09 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE4A2B00B74BB0AB418C00B1539BAEE3 /* Frameworks */ = {
+		F01D5AA00A68E6A90A75FE342496A143 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E37DBD0E52CA0FC14E0C86CC126FF65 /* Foundation.framework in Frameworks */,
+				91229A1E30382DD5408C687550013D7D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		099C9E9C442D344A8A53CCE29D11682F /* EZPopAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				BB6CEF8ACFBC149DA56DACEA8714D33C /* EZCustomAlertView.h */,
+				DFFECB6BD193604E59A118721619B446 /* EZCustomAlertView.m */,
+				363E2A49560DB1B8388568DECF7AF2AA /* Pod */,
+				30574DE92AC15710DBADC5AE437C3DA3 /* Support Files */,
+			);
+			name = EZPopAlertController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		0CCC0CD98AB951949302B433AFE762AD /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,22 +243,46 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		308C0EEDBA4EAA6FE6541E1809E88C78 /* Pod */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1B08FE55A39F08AB99D4BE35E4DB70BC /* EZPopAlertController.podspec */,
-				679A8ECB8DB61556907147B4A7F27B18 /* LICENSE */,
-				761D0EA848D5BCD8A4BCD9CE1766847C /* README.md */,
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30574DE92AC15710DBADC5AE437C3DA3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66A359C0B7072D5E863B58538D8ECD1E /* EZPopAlertController.modulemap */,
+				CB02963655841055F738D57CCC668236 /* EZPopAlertController-dummy.m */,
+				5B5CC0CCDF24557644C47BB957D8526A /* EZPopAlertController-Info.plist */,
+				45B9F8E3DC973E504B789E26420694C3 /* EZPopAlertController-prefix.pch */,
+				45F225D9D88D646CA6E8CE73596E0AFD /* EZPopAlertController-umbrella.h */,
+				F608B5FA73BE03A2A428BE1A3471CD23 /* EZPopAlertController.debug.xcconfig */,
+				293D12FFD9041A0CA2146277A1F60E20 /* EZPopAlertController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EZPopAlertController";
+			sourceTree = "<group>";
+		};
+		363E2A49560DB1B8388568DECF7AF2AA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				14C819C43EDCF26CBCA5F6AFBD3517AC /* EZPopAlertController.podspec */,
+				2A7CE2C7628BCFFF865DC909DB11F3D7 /* LICENSE */,
+				F4CFA4C8736D70CEF8417FD1A9226E8D /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		6DCEEF4C1B3254CA0AAC7E892DBF9AAF /* Development Pods */ = {
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F3CF3BAAE219706FEEB1506492940F8A /* EZPopAlertController */,
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
 			);
-			name = "Development Pods";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
@@ -264,24 +293,12 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		7FFE7401404F4072641A339628D8EBB6 /* Products */ = {
+		891957950775DC418E6110EFE82F5191 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				618D7C44FEA10C226467FA73AE642BCB /* EZPopAlertController.framework */,
-				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
-				143BE428F958501D8EA2462923EEB9E1 /* Pods_EZPopAlertController_Example.framework */,
-				D8B0A1CB795FDBD1B45EB85077A47BF5 /* Pods_EZPopAlertController_Tests.framework */,
+				099C9E9C442D344A8A53CCE29D11682F /* EZPopAlertController */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8B9B1AC85CD951F73580B2776B7EA31B /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */,
-				F3CF773651727D50CDFC96D527CE18A6 /* UIKit.framework */,
-			);
-			name = iOS;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		9FD14E86A30EFDA9EF8CC5FD6C4F1EDF /* Pods-EZPopAlertController_Example */ = {
@@ -316,40 +333,27 @@
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		C8C0008B2696C91A5CB051D65AD0B948 /* Support Files */ = {
+		CAC6CC8015DA77577015759037ED057F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C3381C0FE84D1BC04313A2317FEBF55B /* EZPopAlertController.modulemap */,
-				2788C1C5E1E0767AA2039E91DBAFFA6C /* EZPopAlertController-dummy.m */,
-				A8F24ED2129F6286D40D5FD3E115E822 /* EZPopAlertController-Info.plist */,
-				795241097AACA6ABDCE4F2AC4999AB2E /* EZPopAlertController-prefix.pch */,
-				EC780E4D99DFD1A8CB80F6AEC2721528 /* EZPopAlertController-umbrella.h */,
-				28B4C7E048A1C665AFFBE2815C7102A4 /* EZPopAlertController.debug.xcconfig */,
-				3DE48B53F45537D77D9588CC388DA38E /* EZPopAlertController.release.xcconfig */,
+				618D7C44FEA10C226467FA73AE642BCB /* EZPopAlertController */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry */,
+				143BE428F958501D8EA2462923EEB9E1 /* Pods-EZPopAlertController_Example */,
+				D8B0A1CB795FDBD1B45EB85077A47BF5 /* Pods-EZPopAlertController_Tests */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EZPopAlertController";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				6DCEEF4C1B3254CA0AAC7E892DBF9AAF /* Development Pods */,
-				DF275781DF9628A2D5BF35F5D74F7BC1 /* Frameworks */,
+				891957950775DC418E6110EFE82F5191 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
-				7FFE7401404F4072641A339628D8EBB6 /* Products */,
+				CAC6CC8015DA77577015759037ED057F /* Products */,
 				0D2DBB54A6EF1B078F3E080FBCD4D906 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		DF275781DF9628A2D5BF35F5D74F7BC1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */,
-				8B9B1AC85CD951F73580B2776B7EA31B /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DFB6336F1B1EC03A5FB045E0997B03F0 /* Pods-EZPopAlertController_Tests */ = {
@@ -368,69 +372,54 @@
 			path = "Target Support Files/Pods-EZPopAlertController_Tests";
 			sourceTree = "<group>";
 		};
-		F3CF3BAAE219706FEEB1506492940F8A /* EZPopAlertController */ = {
-			isa = PBXGroup;
-			children = (
-				B541A4D839051695CDDE1FCF01048A1F /* EZBaseAlertViewController.h */,
-				D8681D28AFD098E8B1D5C9E4EDD8C50A /* EZBaseAlertViewController.m */,
-				08CD1FF5768C1F87A53521A69769BAB8 /* EZTextAlertViewController.h */,
-				67E864A9A537746608DA0755D12E0009 /* EZTextAlertViewController.m */,
-				308C0EEDBA4EAA6FE6541E1809E88C78 /* Pod */,
-				C8C0008B2696C91A5CB051D65AD0B948 /* Support Files */,
-			);
-			name = EZPopAlertController;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1823ADE87BC64F7469AAB5CF4FAD75C9 /* Headers */ = {
+		2438A06E188606B0FA5F1DA840480BAA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEB6F546BB07B12D4D97196F0D9D4F08 /* MASCompositeConstraint.h in Headers */,
-				E58C6DE88A59305D44D4D1E22518BC1A /* MASConstraint+Private.h in Headers */,
-				D9365910D99E81F69B9EA6D71896C4D5 /* MASConstraint.h in Headers */,
-				FB6156843448ACFFA3DFDFE3E304D1E2 /* MASConstraintMaker.h in Headers */,
-				D48A863B9BDDEBAE4C7277B060DEA42F /* MASLayoutConstraint.h in Headers */,
-				8B5588F44A33CD073CC000F408D025C3 /* Masonry-umbrella.h in Headers */,
-				834C73F57E247624B5C634DD8063BB75 /* Masonry.h in Headers */,
-				25141A377A42E004F20D38FC8E1C7EC4 /* MASUtilities.h in Headers */,
-				AF1C7F61DBE04A48F4374E9665F83112 /* MASViewAttribute.h in Headers */,
-				2C87E0CBA6B105550F61B00926722F52 /* MASViewConstraint.h in Headers */,
-				E264AF8567F20CDC89F2E100AC5A966B /* NSArray+MASAdditions.h in Headers */,
-				A862DB3D455AD8223BA43183CCCB8B0E /* NSArray+MASShorthandAdditions.h in Headers */,
-				D75BC6CD6CBDFD3A56C04C4D14B2AE8B /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				FCBC52DF9A0AC11B1742EC7598AE7F75 /* View+MASAdditions.h in Headers */,
-				EB8F7CD439B195CCD17BCF6AAC751213 /* View+MASShorthandAdditions.h in Headers */,
-				93263F56239AECF5DE9E69861D606627 /* ViewController+MASAdditions.h in Headers */,
+				351F83D65B03B73526705AD226F09029 /* Pods-EZPopAlertController_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CBECF23B491DE2DCA15252B30736576 /* Headers */ = {
+		3408876057DBBE650CE7836D7F6575F4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBC1D0D9A8EBABDF2B5767EB15C74CA2 /* Pods-EZPopAlertController_Tests-umbrella.h in Headers */,
+				E5DD52C94155910AFD27939BB0599A77 /* MASCompositeConstraint.h in Headers */,
+				E6F628367A1392EDC6F38DF43FAF42E4 /* MASConstraint.h in Headers */,
+				D8EC0CED7F5FCCBBD7C6F1D1AA0B9D43 /* MASConstraint+Private.h in Headers */,
+				6F1FA0DBDC9A28198261A844857BCF9A /* MASConstraintMaker.h in Headers */,
+				3CECDDBC209BFDBD3A74F75DD94BC5AE /* MASLayoutConstraint.h in Headers */,
+				8B7BA4A8B8CF7790494996E6CE75C334 /* Masonry.h in Headers */,
+				3AFFD34420C0855CC5244E3A7294FF45 /* Masonry-umbrella.h in Headers */,
+				AC9C76A1D8C5F48E337AFACB84512995 /* MASUtilities.h in Headers */,
+				AD03B0D358A06FD5EC601BFF50752CB0 /* MASViewAttribute.h in Headers */,
+				54A404683FE69D17533C06A1D03CB2A6 /* MASViewConstraint.h in Headers */,
+				6EB00659833931793B55EBACFCBEB4AF /* NSArray+MASAdditions.h in Headers */,
+				0CCF6378CD093038375258B8DF8953CE /* NSArray+MASShorthandAdditions.h in Headers */,
+				123B8362A069EF3913A0DA30BFD5C165 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				E00703530047CA4405FB9B2156910949 /* View+MASAdditions.h in Headers */,
+				206F707F5B9585BD9FD6E8D3DBC8BDEC /* View+MASShorthandAdditions.h in Headers */,
+				75DA9EA3A8542EC6845A42FFD8A6BF33 /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75EE0CFF75F2154818F0E4B369D85FBF /* Headers */ = {
+		46FF4AB5519F8AFE0FA6F08A26EA7A98 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCBBCD3C8DA5E66348CBBB09677690FF /* EZBaseAlertViewController.h in Headers */,
-				B6B9038617CACFD90F3C297AB3304D19 /* EZPopAlertController-umbrella.h in Headers */,
-				A18E32365493706094D924D542ED6D8E /* EZTextAlertViewController.h in Headers */,
+				8100D20B475F9A5563EB3B3C51E904EA /* Pods-EZPopAlertController_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9AABFC28C45D8C71914CFEBB7271B1E /* Headers */ = {
+		8609C7A2FE9455CBB2D69CDADD61595D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD291AA7368D7B54438EDD26E472B8B9 /* Pods-EZPopAlertController_Example-umbrella.h in Headers */,
+				F4F490F6A7874858BB8D1BFA0D0B69A1 /* EZCustomAlertView.h in Headers */,
+				4219D3F4990639CF8B65B3BFA64486A4 /* EZPopAlertController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,12 +428,12 @@
 /* Begin PBXNativeTarget section */
 		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C3582DE0EF2A4CA187A680C1A842957 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildConfigurationList = 403177F9DFDAD85C617AD7346DB5B0C5 /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				1823ADE87BC64F7469AAB5CF4FAD75C9 /* Headers */,
-				C4CBC5CDF063A51239E53974CD0510EC /* Sources */,
-				6484E80DDD3D1F05861C0402DAC57780 /* Frameworks */,
-				6D1E4A8F4994C18EA319ECEB539921A3 /* Resources */,
+				3408876057DBBE650CE7836D7F6575F4 /* Headers */,
+				95941A696D3B57A86FE758CA1B9CF185 /* Sources */,
+				90D9A1FD8449A6606D0B59E846DE78F8 /* Frameworks */,
+				5463FB432103D9915A8ACCAD30714D49 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -452,65 +441,65 @@
 			);
 			name = Masonry;
 			productName = Masonry;
-			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry */;
 			productType = "com.apple.product-type.framework";
 		};
 		A5CFD98820BD84659383902B78655B8B /* EZPopAlertController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26C8AD7E212F7CC80E0F489507D0AF43 /* Build configuration list for PBXNativeTarget "EZPopAlertController" */;
+			buildConfigurationList = 2317788223B0B1D45904B1F88A567F78 /* Build configuration list for PBXNativeTarget "EZPopAlertController" */;
 			buildPhases = (
-				75EE0CFF75F2154818F0E4B369D85FBF /* Headers */,
-				634962DA0A41663C8321381A337D18E8 /* Sources */,
-				CCFE09C2CEE51C8F4195277A940D985B /* Frameworks */,
-				13F92E4DDE7394911787B6683E88C28B /* Resources */,
+				8609C7A2FE9455CBB2D69CDADD61595D /* Headers */,
+				3DFDCCE76C180FEE5C3FB3478C78F99E /* Sources */,
+				DF32DE902281B34B0AC03E4BF9ECD802 /* Frameworks */,
+				7AA02FC8683E3CE493EF900901338F31 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				11C9231F4BDC424AA08F8019535188E0 /* PBXTargetDependency */,
+				8D5A3D79FE39E68CDC9167A9080FDFB1 /* PBXTargetDependency */,
 			);
 			name = EZPopAlertController;
 			productName = EZPopAlertController;
-			productReference = 618D7C44FEA10C226467FA73AE642BCB /* EZPopAlertController.framework */;
+			productReference = 618D7C44FEA10C226467FA73AE642BCB /* EZPopAlertController */;
 			productType = "com.apple.product-type.framework";
 		};
 		D4FE56DED90EA46C0B7CA18C7423496D /* Pods-EZPopAlertController_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24BC74DC3167027D2F674A5507C8CB0B /* Build configuration list for PBXNativeTarget "Pods-EZPopAlertController_Example" */;
+			buildConfigurationList = F8400F3DEAA16501AE9E04A1E9BE9F33 /* Build configuration list for PBXNativeTarget "Pods-EZPopAlertController_Example" */;
 			buildPhases = (
-				A9AABFC28C45D8C71914CFEBB7271B1E /* Headers */,
-				F5D0458FB4A8BE1D2F5AB8342DD3348C /* Sources */,
-				9A0EB0820955FB9E9BFA55BAF33E81E8 /* Frameworks */,
-				015BEB2F16BB2B98BF36F607390FAEC1 /* Resources */,
+				46FF4AB5519F8AFE0FA6F08A26EA7A98 /* Headers */,
+				D98CBEE4BCDADB2DD4707F3586E08B7E /* Sources */,
+				7DB49E3F49D6F65AECD524491D5F6114 /* Frameworks */,
+				FF7DAD6912F363919236DC0710BE97C1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AC08F88A0F8FDDAA3BC420FC7861CA36 /* PBXTargetDependency */,
-				081C085A7AE4B08ACC04B26ABE3FF76F /* PBXTargetDependency */,
+				F048B8C70B43D934F35BC89F98126D67 /* PBXTargetDependency */,
+				FE7AE10BF9ADB7C347ADDAD02748F184 /* PBXTargetDependency */,
 			);
 			name = "Pods-EZPopAlertController_Example";
-			productName = "Pods-EZPopAlertController_Example";
-			productReference = 143BE428F958501D8EA2462923EEB9E1 /* Pods_EZPopAlertController_Example.framework */;
+			productName = Pods_EZPopAlertController_Example;
+			productReference = 143BE428F958501D8EA2462923EEB9E1 /* Pods-EZPopAlertController_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		FB1D6EDF753E159CBB6F270F28579498 /* Pods-EZPopAlertController_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3D2DE11A52D523FDF1A64C5202FE04A /* Build configuration list for PBXNativeTarget "Pods-EZPopAlertController_Tests" */;
+			buildConfigurationList = B4E5F49246AF6B4AA7C5557C12489BC0 /* Build configuration list for PBXNativeTarget "Pods-EZPopAlertController_Tests" */;
 			buildPhases = (
-				3CBECF23B491DE2DCA15252B30736576 /* Headers */,
-				F75A21876569951DFC9151262BBB282C /* Sources */,
-				DE4A2B00B74BB0AB418C00B1539BAEE3 /* Frameworks */,
-				6F02541F29394F3B31F0C467CDC18C0D /* Resources */,
+				2438A06E188606B0FA5F1DA840480BAA /* Headers */,
+				054CCF503DC2311EE9757A9881D35129 /* Sources */,
+				F01D5AA00A68E6A90A75FE342496A143 /* Frameworks */,
+				AC5C12EDFFA0B98D27AB9AED0E86F176 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3AE4EF0946792276E1E60298588D2A2D /* PBXTargetDependency */,
+				EC04202F23E3FD776CB9697FCD56958F /* PBXTargetDependency */,
 			);
 			name = "Pods-EZPopAlertController_Tests";
-			productName = "Pods-EZPopAlertController_Tests";
-			productReference = D8B0A1CB795FDBD1B45EB85077A47BF5 /* Pods_EZPopAlertController_Tests.framework */;
+			productName = Pods_EZPopAlertController_Tests;
+			productReference = D8B0A1CB795FDBD1B45EB85077A47BF5 /* Pods-EZPopAlertController_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -519,19 +508,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 7FFE7401404F4072641A339628D8EBB6 /* Products */;
+			productRefGroup = CAC6CC8015DA77577015759037ED057F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -544,28 +533,28 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		015BEB2F16BB2B98BF36F607390FAEC1 /* Resources */ = {
+		5463FB432103D9915A8ACCAD30714D49 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		13F92E4DDE7394911787B6683E88C28B /* Resources */ = {
+		7AA02FC8683E3CE493EF900901338F31 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D1E4A8F4994C18EA319ECEB539921A3 /* Resources */ = {
+		AC5C12EDFFA0B98D27AB9AED0E86F176 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F02541F29394F3B31F0C467CDC18C0D /* Resources */ = {
+		FF7DAD6912F363919236DC0710BE97C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -575,84 +564,84 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		634962DA0A41663C8321381A337D18E8 /* Sources */ = {
+		054CCF503DC2311EE9757A9881D35129 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8FD582E8666EBD77850386387E31D8D /* EZBaseAlertViewController.m in Sources */,
-				0124A36B96FEC25F143F440D3C9AFE99 /* EZPopAlertController-dummy.m in Sources */,
-				18D014FDEA88F088E3C955C3E332B14B /* EZTextAlertViewController.m in Sources */,
+				8F1ECE00279FF7FC84B3815B5A7511C3 /* Pods-EZPopAlertController_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4CBC5CDF063A51239E53974CD0510EC /* Sources */ = {
+		3DFDCCE76C180FEE5C3FB3478C78F99E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0A0585FEBA956FCDA0E1274D89882E1 /* MASCompositeConstraint.m in Sources */,
-				BC4D33D5F0B596621C861B546F017290 /* MASConstraint.m in Sources */,
-				E96206E733D8D20F441743B1C85EE48A /* MASConstraintMaker.m in Sources */,
-				80F4ECD05C09E693E8B4948140DCBC87 /* MASLayoutConstraint.m in Sources */,
-				FE406980B965493E276D2A62EAA09047 /* Masonry-dummy.m in Sources */,
-				FE014E28FF4B73273B1AECAA1057C4B9 /* MASViewAttribute.m in Sources */,
-				C39C0D8C3E51FDD0C03657CF52EB997F /* MASViewConstraint.m in Sources */,
-				7A3304E124E27824DC5162A9BD264107 /* NSArray+MASAdditions.m in Sources */,
-				6095703AB78BBCFC6047A0703447DF2B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				3259A914650F2179B6D2BEFBD39E8D21 /* View+MASAdditions.m in Sources */,
-				6F98A344C7099A45693C7606F5398C5B /* ViewController+MASAdditions.m in Sources */,
+				9D81FA3DB23110155908AD586F012EE5 /* EZCustomAlertView.m in Sources */,
+				EE9BD72CFAB3FF4C455D51974BAAC363 /* EZPopAlertController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5D0458FB4A8BE1D2F5AB8342DD3348C /* Sources */ = {
+		95941A696D3B57A86FE758CA1B9CF185 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49DD6A0687C63459222E9EFFAEF9CCEB /* Pods-EZPopAlertController_Example-dummy.m in Sources */,
+				10E1D4F974778840FA8970E9183313A9 /* MASCompositeConstraint.m in Sources */,
+				3A6AB97FB381699D126E1960B5ED3DFB /* MASConstraint.m in Sources */,
+				B0B3ECD1046691EFD7216BD236946ED3 /* MASConstraintMaker.m in Sources */,
+				9AA92A9BBB50A460F489848F4D1B7053 /* MASLayoutConstraint.m in Sources */,
+				144C25C54DBB837C84B42141AB13B549 /* Masonry-dummy.m in Sources */,
+				F90838441EA27180379BB77D7B1199C8 /* MASViewAttribute.m in Sources */,
+				BD63F24C5E50715937C99BF7326CA3F6 /* MASViewConstraint.m in Sources */,
+				87EC6BCDFD8025A6AFE63C679DA70C26 /* NSArray+MASAdditions.m in Sources */,
+				7C0ECC8B523C7091AB3A09A23DFF4D61 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				F210C4A4859A1AE96721E369AF3DDB81 /* View+MASAdditions.m in Sources */,
+				91E9B92975D9E2BD0A8F6927562D0ED5 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F75A21876569951DFC9151262BBB282C /* Sources */ = {
+		D98CBEE4BCDADB2DD4707F3586E08B7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				240E6DBEAD746B8DB20198937B17E2B8 /* Pods-EZPopAlertController_Tests-dummy.m in Sources */,
+				83C656687A1703FBFA318BD9CB953793 /* Pods-EZPopAlertController_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		081C085A7AE4B08ACC04B26ABE3FF76F /* PBXTargetDependency */ = {
+		8D5A3D79FE39E68CDC9167A9080FDFB1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 3C5B6A6238D4E24F120D605F237CB7A1 /* PBXContainerItemProxy */;
+			targetProxy = B22A18013A3A5475F4421077D9FC0C52 /* PBXContainerItemProxy */;
 		};
-		11C9231F4BDC424AA08F8019535188E0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 496139D453B74B44D2B535420EDC08D5 /* PBXContainerItemProxy */;
-		};
-		3AE4EF0946792276E1E60298588D2A2D /* PBXTargetDependency */ = {
+		EC04202F23E3FD776CB9697FCD56958F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-EZPopAlertController_Example";
 			target = D4FE56DED90EA46C0B7CA18C7423496D /* Pods-EZPopAlertController_Example */;
-			targetProxy = D8E1C3EA0AD406B7FE0ED79EB2193447 /* PBXContainerItemProxy */;
+			targetProxy = 58FD5B0EA79C846D4C076B241F32B089 /* PBXContainerItemProxy */;
 		};
-		AC08F88A0F8FDDAA3BC420FC7861CA36 /* PBXTargetDependency */ = {
+		F048B8C70B43D934F35BC89F98126D67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EZPopAlertController;
 			target = A5CFD98820BD84659383902B78655B8B /* EZPopAlertController */;
-			targetProxy = D1EE6407F853C0AFEAB703AC50A8F1A5 /* PBXContainerItemProxy */;
+			targetProxy = D955EE973D6B1B96A9B561E739D9F146 /* PBXContainerItemProxy */;
+		};
+		FE7AE10BF9ADB7C347ADDAD02748F184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 5C9322B7DB83E442B4A2C281848B6075 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0D10EF87987097A69B944550B7A6D0E0 /* Debug */ = {
+		01840255610DE58D492D7D2AB7552AC9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28B4C7E048A1C665AFFBE2815C7102A4 /* EZPopAlertController.debug.xcconfig */;
+			baseConfigurationReference = 3E259E447151766424D309D3705C477B /* Pods-EZPopAlertController_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -661,48 +650,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EZPopAlertController/EZPopAlertController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EZPopAlertController/EZPopAlertController-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-EZPopAlertController_Example/Pods-EZPopAlertController_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EZPopAlertController/EZPopAlertController.modulemap";
-				PRODUCT_MODULE_NAME = EZPopAlertController;
-				PRODUCT_NAME = EZPopAlertController;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EZPopAlertController_Example/Pods-EZPopAlertController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		212F783DE2A2F01EC664BDB2CC1C0DB8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DE48B53F45537D77D9588CC388DA38E /* EZPopAlertController.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EZPopAlertController/EZPopAlertController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EZPopAlertController/EZPopAlertController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EZPopAlertController/EZPopAlertController.modulemap";
-				PRODUCT_MODULE_NAME = EZPopAlertController;
-				PRODUCT_NAME = EZPopAlertController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -776,9 +736,9 @@
 			};
 			name = Debug;
 		};
-		689F886EF288D6F9E19ED6583E51CDE0 /* Release */ = {
+		41F4446D162FC4B465E00ECB2CBEBEC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E259E447151766424D309D3705C477B /* Pods-EZPopAlertController_Example.release.xcconfig */;
+			baseConfigurationReference = A299710227DC33B938B827154DABF404 /* Pods-EZPopAlertController_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -789,12 +749,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EZPopAlertController_Example/Pods-EZPopAlertController_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-EZPopAlertController_Tests/Pods-EZPopAlertController_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EZPopAlertController_Example/Pods-EZPopAlertController_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-EZPopAlertController_Tests/Pods-EZPopAlertController_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -803,13 +763,72 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		8F4E22E38BCB62FD4AE3A2D005EFC42F /* Debug */ = {
+		59108E14294F945C271FCE6872541B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A8B48F3952D48D2B27EE09901DB3CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F608B5FA73BE03A2A428BE1A3471CD23 /* EZPopAlertController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EZPopAlertController/EZPopAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EZPopAlertController/EZPopAlertController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EZPopAlertController/EZPopAlertController.modulemap";
+				PRODUCT_MODULE_NAME = EZPopAlertController;
+				PRODUCT_NAME = EZPopAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8186C350EC7487C00D2CDE9BEA7AC01D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 28C96044304635C48D60A6B13868DE44 /* Pods-EZPopAlertController_Example.debug.xcconfig */;
 			buildSettings = {
@@ -841,7 +860,7 @@
 			};
 			name = Debug;
 		};
-		93978FAF207742DB2770A73DF280FEFF /* Release */ = {
+		A3F00060EE589E45D9374E2F861BF00E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 247EB1BED9F0CE756E6A46D2DC173B06 /* Pods-EZPopAlertController_Tests.release.xcconfig */;
 			buildSettings = {
@@ -873,38 +892,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		B6A3C0729F673D8BEC64699508EC9555 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A299710227DC33B938B827154DABF404 /* Pods-EZPopAlertController_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EZPopAlertController_Tests/Pods-EZPopAlertController_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EZPopAlertController_Tests/Pods-EZPopAlertController_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -968,37 +955,7 @@
 			};
 			name = Release;
 		};
-		DDBCE1396D51ED20DD26A5B1FECC6CC1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F4DB587A4AB194C9B73F204E6B8FAA2A /* Release */ = {
+		E211418F576FAF31BB30AB6710070196 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */;
 			buildSettings = {
@@ -1029,32 +986,54 @@
 			};
 			name = Release;
 		};
+		FFE1D2F4F91A607F4621EA659CE12BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 293D12FFD9041A0CA2146277A1F60E20 /* EZPopAlertController.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EZPopAlertController/EZPopAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EZPopAlertController/EZPopAlertController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EZPopAlertController/EZPopAlertController.modulemap";
+				PRODUCT_MODULE_NAME = EZPopAlertController;
+				PRODUCT_NAME = EZPopAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		24BC74DC3167027D2F674A5507C8CB0B /* Build configuration list for PBXNativeTarget "Pods-EZPopAlertController_Example" */ = {
+		2317788223B0B1D45904B1F88A567F78 /* Build configuration list for PBXNativeTarget "EZPopAlertController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F4E22E38BCB62FD4AE3A2D005EFC42F /* Debug */,
-				689F886EF288D6F9E19ED6583E51CDE0 /* Release */,
+				7A8B48F3952D48D2B27EE09901DB3CF1 /* Debug */,
+				FFE1D2F4F91A607F4621EA659CE12BBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		26C8AD7E212F7CC80E0F489507D0AF43 /* Build configuration list for PBXNativeTarget "EZPopAlertController" */ = {
+		403177F9DFDAD85C617AD7346DB5B0C5 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D10EF87987097A69B944550B7A6D0E0 /* Debug */,
-				212F783DE2A2F01EC664BDB2CC1C0DB8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2C3582DE0EF2A4CA187A680C1A842957 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DDBCE1396D51ED20DD26A5B1FECC6CC1 /* Debug */,
-				F4DB587A4AB194C9B73F204E6B8FAA2A /* Release */,
+				59108E14294F945C271FCE6872541B84 /* Debug */,
+				E211418F576FAF31BB30AB6710070196 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1068,11 +1047,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3D2DE11A52D523FDF1A64C5202FE04A /* Build configuration list for PBXNativeTarget "Pods-EZPopAlertController_Tests" */ = {
+		B4E5F49246AF6B4AA7C5557C12489BC0 /* Build configuration list for PBXNativeTarget "Pods-EZPopAlertController_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6A3C0729F673D8BEC64699508EC9555 /* Debug */,
-				93978FAF207742DB2770A73DF280FEFF /* Release */,
+				41F4446D162FC4B465E00ECB2CBEBEC3 /* Debug */,
+				A3F00060EE589E45D9374E2F861BF00E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8400F3DEAA16501AE9E04A1E9BE9F33 /* Build configuration list for PBXNativeTarget "Pods-EZPopAlertController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8186C350EC7487C00D2CDE9BEA7AC01D /* Debug */,
+				01840255610DE58D492D7D2AB7552AC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
